@@ -3,7 +3,7 @@ import { LayoutDashboard, Utensils, ShoppingBag } from "lucide-react";
 
 export default function Sidebar() {
   return (
-    <div className="fixed w-64 bg-white shadow-lg p-5">
+    <div className="w-64 bg-white shadow-lg p-5">
       <h1 className="text-2xl font-bold mb-8">🍔 Eatoes Admin</h1>
 
       <nav className="space-y-4">
