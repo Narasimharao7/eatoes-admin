@@ -15,7 +15,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://eatoes-admin-psi.vercel.app/"],
+    origin: ["http://localhost:5173", "https://eatoes-admin-psi.vercel.app"],
     credentials: true,
   }),
 );
